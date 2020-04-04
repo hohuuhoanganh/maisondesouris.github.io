@@ -1,0 +1,68 @@
+/*Font*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:500|Poppins:400");
+
+html {
+  font-size: 100%;
+} /*16px*/
+
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.65;
+  color: #333;
+}
+
+p {
+  margin-bottom: 1.15rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 2.75rem 0 1.05rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052em;
+}
+
+h2 {
+  font-size: 2.441em;
+}
+
+h3 {
+  font-size: 1.953em;
+}
+
+h4 {
+  font-size: 1.563em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+small,
+.text_small {
+  font-size: 0.8em;
+}
+/*Layout*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: #ffffff;
+  background-size: cover;
+  background: no-repeat 50% 50%;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="SHORTCUT ICON" href="../Logo-01.png" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/Home.css" />
+    <!-- jquery -->
+    <script src="js/jq/jquery-3.3.1.js"></script>
+    <!-- greensock -->
+    <script src="js/greensock/TweenMax.min.js"></script>
+  </head>
+  <body>
+    <div class="overlay">
+      <h3>Maison Desouris</h3>
+    </div>
+    <!--navication-->
+    <div class="wrapper" id="nav-desktop">
+      <div class="logo">
+        <h3>Maison Desouris</h3>
+      </div>
+      <div class="nav">
+        <ul>
+          <li>Live chat</li>
+          <li>Shop</li>
+          <li>Sale</li>
+          <li>Journal</li>
+          <li>About us</li>
+          <li>Account</li>
+          <li>Cart</li>
+        </ul>
+      </div>
+      <!--content-->
+      <!--js-->
+      <script type="text/javascript">
+        TweenMax.to(".overlay h3", 2, {
+          delay: 1,
+          left: "90%",
+          opacity: 0,
+          ease: Expo.easeInOut
+        });
+        TweenMax.to(".overlay", 2, {
+          delay: 1,
+          right: "100%",
+          ease: Expo.easeInOut
+        });
+      </script>
+    </div>
+  </body>
+</html>
